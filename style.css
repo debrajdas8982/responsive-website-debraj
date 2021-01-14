@@ -1,0 +1,132 @@
+.wrapper{
+    background-color: rgba(255, 251, 240, 1);
+}
+.img_logo{
+   width: 200px; 
+}
+.p_right{
+    padding-right: 75px;
+}
+
+.font{
+    font-weight: bold;
+}
+
+.header_top{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding: 5% 5%;
+}
+
+.right_part img{
+    width: 100%;
+}
+
+.h_font{
+    color: rgba(250, 190, 76, 1);
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.p_text{
+    font-family: 'Roboto', sans-serif;   
+}
+.b_text{
+    padding-top: 15px;
+    color: white;
+    font-weight: bold;
+}
+.shopping_cart{
+  width: 20px;
+}
+
+.button_text_logo{
+    display: flex;
+    align-items: center;
+    background-color: rgba(164, 188, 70, 1);
+    border-radius: 7px;   
+    height: 45px;
+   
+}
+.button_text_logo1{
+    display: flex;
+    align-items: center;
+    background-color: rgba(164, 188, 70, 1);
+    border-radius: 7px;   
+    height: 45px;
+}
+
+.photo_background{
+    background-color:rgba(241, 241, 241, 1);
+    border-radius: 10px;
+    padding: 10px 20px 30px 20px;
+    margin: 15px;
+}
+.h_font1{
+    color: rgba(250, 190, 76, 1);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 40px; 
+}
+.penguin-card-img-top1 {
+    height: 27vw;
+    object-fit: contain;
+}
+
+.penguin-card-img-top {
+    height: 26vw;
+    object-fit: contain;
+}
+.card-title{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 100px;
+}
+
+.image_shop img{
+    width: 100%;
+    
+}
+
+.contact_form{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+
+}
+
+.card{
+    grid-column: 1 / span 1;
+}
+
+.image_shop{
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 3;
+}
+
+
+@media (max-width: 668px){
+
+    .header_top{
+        grid-template-columns: 1fr;
+    }
+   .card{
+       grid-column: 1/ span 1;
+       text-align: center;
+   }
+
+   .image_shop{
+       
+       grid-row: 1 /span 1;
+   }
+    
+   
+}
+
