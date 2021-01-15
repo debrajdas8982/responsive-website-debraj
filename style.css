@@ -44,21 +44,14 @@
   width: 20px;
 }
 
-.button_text_logo{
-    display: flex;
-    align-items: center;
-    background-color: rgba(164, 188, 70, 1);
-    border-radius: 7px;   
-    height: 45px;
-   
-}
-.button_text_logo1{
+.button_text_logo , .button_text_logo1{
     display: flex;
     align-items: center;
     background-color: rgba(164, 188, 70, 1);
     border-radius: 7px;   
     height: 45px;
 }
+
 
 .photo_background{
     background-color:rgba(241, 241, 241, 1);
@@ -72,14 +65,9 @@
     font-weight: bold;
     font-size: 40px; 
 }
-.penguin-card-img-top1 {
+.penguin-card-img-top1 , .penguin-card-img-top {
     height: 27vw;
     object-fit: contain;
-}
-
-.penguin-card-img-top {
-    height: 26vw;
-    object-fit:contain;
 }
 .card-title{
     font-weight: bold;
@@ -91,7 +79,7 @@
 }
 
 .image_shop img{
-    width: 100%;
+    width: 90%;
     
 }
 
@@ -118,14 +106,20 @@
         grid-template-columns: 1fr;
     }
    .card1{
-       grid-column: 1/ span 1;
        text-align: center;
    }
+.contact_form{
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
 
-   .image_shop{
-       
-       grid-row: 1 /span 1;
-   }
+.h_jacket{
+    text-align: center;
+}
+
+
+
 
 }
 
