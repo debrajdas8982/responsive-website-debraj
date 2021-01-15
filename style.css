@@ -100,7 +100,7 @@
 }
 
 
-@media (max-width: 992px){
+@media (max-width: 760px){
 
     .header_top{
         grid-template-columns: 1fr;
@@ -110,16 +110,11 @@
    }
 .contact_form{
     display: flex;
-    flex-direction: column-reverse;
-    
+    flex-direction: column-reverse;  
 }
 
 .h_jacket{
     text-align: center;
 }
 
-
-
-
 }
-
